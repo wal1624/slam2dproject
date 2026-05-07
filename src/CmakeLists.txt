@@ -1,0 +1,9 @@
+cmake_minimum_version(VERSION 3.22.1)
+
+project(
+    slam2d VERSION 1.0.0
+    DESCRIPTION A project to help me understand slam2d
+    LANGUAGE CXX
+)
+
+add_executable(2dSimulation.cpp)
